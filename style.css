@@ -1,0 +1,20 @@
+@keyframes rainbow {
+0% {color: red;}
+14% {color: orange;}
+28% {color: yellow;}
+42% {color: lime;}
+57% {color: blue;}
+71% {color: indigo;}
+85% {color: violet;}
+100% {color: red;}
+}
+
+h1 {
+animation-name: rainbow;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+display: flex;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 70px;
+}
